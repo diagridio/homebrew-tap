@@ -3,27 +3,27 @@
 class Diagrid < Formula
   desc "Command-line interface for Diagrid Catalyst and Conductor"
   homepage "https://www.diagrid.io"
-  version "1.136.0"
+  version "1.137.0"
 
   on_macos do
     on_arm do
-      url "https://downloads.diagrid.io/cli/v1.136.0/diagrid/diagrid_darwin_arm64/diagrid_darwin_arm64.tar.gz"
-      sha256 "ac38fc6997d6abcec79c3d06ef349e1b4283617f501a8f8afec0a6edff0b7500"
+      url "https://downloads.diagrid.io/cli/v1.137.0/diagrid/diagrid_darwin_arm64/diagrid_darwin_arm64.tar.gz"
+      sha256 "d75650e04c0a66f11f1c5834b4746da37c078fd46771717bada96f7e4765631d"
     end
     on_intel do
-      url "https://downloads.diagrid.io/cli/v1.136.0/diagrid/diagrid_darwin_amd64/diagrid_darwin_amd64.tar.gz"
-      sha256 "ce66f2f10d99398e5e37f7d9cf1d009e7b38832d9f03a5b651f1c4d3277236fa"
+      url "https://downloads.diagrid.io/cli/v1.137.0/diagrid/diagrid_darwin_amd64/diagrid_darwin_amd64.tar.gz"
+      sha256 "8dc142a16a31128a2f6af2fb13f0644d0fe72d452c497dfab212f65a4b7e92c7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.diagrid.io/cli/v1.136.0/diagrid/diagrid_linux_arm64/diagrid_linux_arm64.tar.gz"
-      sha256 "d39ea612ca0ff0b2b1f351366ebb6b415895a4f5ef680ceed67ca0c592eb24a0"
+      url "https://downloads.diagrid.io/cli/v1.137.0/diagrid/diagrid_linux_arm64/diagrid_linux_arm64.tar.gz"
+      sha256 "3cf0fa0ef3d30653bcfb69bbab9140230e33489d7e6e341bb1d0c99953b12033"
     end
     on_intel do
-      url "https://downloads.diagrid.io/cli/v1.136.0/diagrid/diagrid_linux_amd64/diagrid_linux_amd64.tar.gz"
-      sha256 "0815a7c7f2882c28b7a7570b3b2a809b569136d35478479c5d503e7c16c06d04"
+      url "https://downloads.diagrid.io/cli/v1.137.0/diagrid/diagrid_linux_amd64/diagrid_linux_amd64.tar.gz"
+      sha256 "2c2ce250f1873decc89607df0e1363dec27d085b64c6db1ac837063288482966"
     end
   end
 
