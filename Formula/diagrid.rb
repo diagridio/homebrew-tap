@@ -5,6 +5,14 @@ class Diagrid < Formula
   homepage "https://www.diagrid.io"
   version "1.137.0"
 
+  bottle do
+    root_url "https://github.com/diagridio/homebrew-tap/releases/download/v1.137.0"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "99a72a062678763b328745b40ee5f272e770f9ab946a11a6312c75805b268fc8"
+    sha256 cellar: :any_skip_relocation, sonoma: "5a4a74dc30a3ee672c80ad01b37caee47f740c51b112a3210852db3fe281681e"
+    sha256 cellar: :any_skip_relocation, arm64_linux: "766643034f58bc1af9f5ef589697687156b774fc34b483132c809b20ea11e796"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "10b9b75ecdb36ea7a26ecb741e91d2bb1466594662201f3acf8c0d0ead6e90d4"
+  end
+
   on_macos do
     on_arm do
       url "https://downloads.diagrid.io/cli/v1.137.0/diagrid/diagrid_darwin_arm64/diagrid_darwin_arm64.tar.gz"
