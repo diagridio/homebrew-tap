@@ -3,35 +3,35 @@
 class Diagrid < Formula
   desc "Command-line interface for Diagrid Catalyst and Conductor"
   homepage "https://www.diagrid.io"
-  version "1.138.0"
+  version "1.139.0"
 
   bottle do
-    root_url "https://github.com/diagridio/homebrew-tap/releases/download/v1.138.0"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "d5bdd31e6d6d5bca0df72b83115a8b840facea0840c35f62e23adc8b6f0f6741"
-    sha256 cellar: :any_skip_relocation, sonoma: "3aa25af5095f3c9dae2b4a47f3189bafab8b755d155fda7146f2a3dd3abc4894"
-    sha256 cellar: :any_skip_relocation, arm64_linux: "f301bbe251c78c4ff28c43bf222acd17ea722d057cbe1d1a4100dac6d4e033ef"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "2e1ea850cfcf72ed885309bf2c33e9edc0fc19b63896139ec9f4dbcb5844e229"
+    root_url "https://github.com/diagridio/homebrew-tap/releases/download/v1.139.0"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "e249fb0672ecd11c1697e7a6764ba5132f3a1a65d3087a3b737925d8eb5e4ffa"
+    sha256 cellar: :any_skip_relocation, sonoma: "27e261010d6acb47cd86a533ca18e44c88a6cbaedf95c0a447b28abe5e8b96a5"
+    sha256 cellar: :any_skip_relocation, arm64_linux: "d514d242f86ee978a54bdb9dc1e4e5ae1b49303bb4cb55ed36b69d92d0d59c74"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "de58e3df948348d74a9c1d5640a5283c981f7a016bec9ee473fa80bd4589ce54"
   end
 
   on_macos do
     on_arm do
-      url "https://downloads.diagrid.io/cli/v1.138.0/diagrid/diagrid_darwin_arm64/diagrid_darwin_arm64.tar.gz"
-      sha256 "0e71fd7dd42043281279390bba75bde61fed31e0657d4520bf5b87fc63d684ae"
+      url "https://downloads.diagrid.io/cli/v1.139.0/diagrid/diagrid_darwin_arm64/diagrid_darwin_arm64.tar.gz"
+      sha256 "71918c894ffe1ab6d53331d3588e1c948261c8c845b1e1e331017784d48481d8"
     end
     on_intel do
-      url "https://downloads.diagrid.io/cli/v1.138.0/diagrid/diagrid_darwin_amd64/diagrid_darwin_amd64.tar.gz"
-      sha256 "1c3471f7efce796beb514d559baf8d5866b2f1141383bec42bfe388c918481bf"
+      url "https://downloads.diagrid.io/cli/v1.139.0/diagrid/diagrid_darwin_amd64/diagrid_darwin_amd64.tar.gz"
+      sha256 "fbf66cd2cf74ed6847e09500cd50dbe2fe0a42b908da436218d203e15f0c0832"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://downloads.diagrid.io/cli/v1.138.0/diagrid/diagrid_linux_arm64/diagrid_linux_arm64.tar.gz"
-      sha256 "fe415695f0728a1a9b557f1491273bd4836ccc43a276864cd7d3ae8fb18e249b"
+      url "https://downloads.diagrid.io/cli/v1.139.0/diagrid/diagrid_linux_arm64/diagrid_linux_arm64.tar.gz"
+      sha256 "ff0a616317b82d4ee961df17a0e5cddfe299ad32b20fa996ed7843a770fa739d"
     end
     on_intel do
-      url "https://downloads.diagrid.io/cli/v1.138.0/diagrid/diagrid_linux_amd64/diagrid_linux_amd64.tar.gz"
-      sha256 "797d91057e7df494d5e81e1a165b68979ef0ac810c21758a1b4b7602985a8600"
+      url "https://downloads.diagrid.io/cli/v1.139.0/diagrid/diagrid_linux_amd64/diagrid_linux_amd64.tar.gz"
+      sha256 "b26d342792e78a050fa86496fcd218ba151a6f0e3cdd4e8e13af7af49f8f3399"
     end
   end
 
